@@ -19,7 +19,7 @@ class AutoPilotConfigured extends AutoPilot {
 
         $this->steps =
             array(
-                array ( "Logging" => array( "log" => array( "log-message" => "Lets begin Configuration of a Git SCM Server on environment prod"),),),
+                array ( "Logging" => array( "log" => array( "log-message" => "Lets begin Configuration of a Git SCM Server on environment medium-bastion"),),),
 
 //                // Install Keys - Bastion Public Key, DevOps Public Key, Bastion Private Key
 //                array ( "Logging" => array( "log" => array( "log-message" => "Lets ensure our Bastion Public Key is installed" ),),),
@@ -100,7 +100,7 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Logging" => array( "log" => array( "log-message" => "Lets dapper a reverse proxy"),),),
                 array ( "RunCommand" => array("install" => array(
                     "guess" => true,
-                    "command" => "dapperstrano autopilot execute --autopilot-file=$reverseProxyAutopilot --vhe-url=134.213.136.52",
+                    "command" => "dapperstrano autopilot execute --autopilot-file=$reverseProxyAutopilot --vhe-url=",
                 ),),),
 
                 // Firewall
@@ -120,7 +120,7 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Logging" => array( "log" => array( "log-message" => "Lets enable Firewall again"), ) , ) ,
                 array ( "Firewall" => array( "enable" => array(), ) , ) ,
 
-                array ( "Logging" => array( "log" => array( "log-message" => "Configuring a Git SCM server on environment prod complete"),),),
+                array ( "Logging" => array( "log" => array( "log-message" => "Configuring a Git SCM server on environment medium-bastion complete"),),),
 
         );
 

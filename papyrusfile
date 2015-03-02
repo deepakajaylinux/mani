@@ -1,1 +1,1 @@
-a:1:{s:12:"environments";a:1:{i:0;a:1:{s:7:"any-app";a:2:{s:12:"gen_env_name";s:4:"prod";s:15:"gen_env_tmp_dir";s:0:"";}}}}
+a:1:{s:12:"environments";a:2:{i:0;a:2:{s:7:"any-app";a:2:{s:12:"gen_env_name";s:4:"prod";s:15:"gen_env_tmp_dir";s:0:"";}s:7:"servers";a:1:{i:0;a:3:{s:6:"target";s:14:"134.213.136.52";s:4:"user";s:4:"root";s:8:"password";s:8:"haipht8*";}}}i:1;a:2:{s:7:"any-app";a:2:{s:12:"gen_env_name";s:14:"medium-bastion";s:15:"gen_env_tmp_dir";s:5:"/tmp/";}s:7:"servers";a:0:{}}}}

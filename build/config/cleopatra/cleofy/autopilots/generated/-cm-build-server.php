@@ -18,7 +18,7 @@ class AutoPilotConfigured extends AutoPilot {
 
         $this->steps =
             array(
-                array ( "Logging" => array( "log" => array( "log-message" => "Lets begin Configuration of a Jenkins build server on environment prod"),),),
+                array ( "Logging" => array( "log" => array( "log-message" => "Lets begin Configuration of a Jenkins build server on environment "),),),
 
 //                // Install Keys - Bastion Public Key
 //                array ( "Logging" => array( "log" => array( "log-message" => "Lets ensure our Bastion Public Key is installed" ),),),
@@ -170,7 +170,7 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Firewall" => array( "enable" => array(), ) , ) ,
 
                 // End
-                array ( "Logging" => array( "log" => array( "log-message" => "Configuring a build server on environment prod complete"),),),
+                array ( "Logging" => array( "log" => array( "log-message" => "Configuring a build server on environment  complete"),),),
 
             );
 
